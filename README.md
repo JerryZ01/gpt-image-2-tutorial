@@ -31,7 +31,18 @@
 
 2026 年 4 月 22 日，OpenAI 正式发布 **ChatGPT Images 2.0**（API 模型名 `gpt-image-1`），奥特曼称之为「从 GPT-3 到 GPT-5 的飞跃」。
 
-它是 OpenAI 首个具备**思考能力**的图像模型，在 Arena 盲测榜单中以断层优势登顶全球第一，领先第二名超过 240 分。
+它是 OpenAI 首个具备**思考能力**的图像模型，在 Arena 盲测榜单中以断层优势登顶全球第一，领先第二名超过 240 分。内部代号为 **"duct-tape"**。
+
+### 🚀 四大核心突破
+
+根据社区实测，GPT Image 2 有四大"超能力"：
+
+| 能力 | 说明 |
+|------|------|
+| **完美文字渲染** | 复杂文字（英语、西里尔字母、亚洲脚本）100%准确，不再有"AI胡言乱语" |
+| **身份一致性** | 同一角色/视觉IP在不同场景和角度中保持一致 |
+| **结构化设计** | 生成复杂信息图、爆炸图、多面板布局 |
+| **艺术意图** | 高保真风格迁移，捕捉艺术运动的"灵魂"而非表面颜色 |
 
 ### 关键参数
 
@@ -473,7 +484,7 @@ response = client.images.edit(
 
 # 变体生成
 response = client.images.create_variation(
-    model="gpt-image-1",
+    model="gpt-image-2",
     image=open("original.png", "rb"),
     n=4,
     size="1024x1024"
@@ -525,10 +536,50 @@ from gti import Client
 client = Client(provider="private-codex")
 result = client.generate_image(
     prompt="flat blue square icon",
-    model="gpt-5.4",
+    model="gpt-image-2",
     output_path="./out.png"
 )
 ```
+
+---
+
+## 🎬 GPT Image 2 × Seedance 2.0 工作流
+
+GPT Image 2 + Seedance 2.0 是目前最强大的 AI 视频工作流之一：
+- **GPT Image 2** 负责"画什么"和视觉一致性
+- **Seedance 2.0** 负责"怎么动"——将图片动画化为视频
+
+### 标准工作流
+
+1. 用 GPT Image 2 生成分镜/关键帧
+2. 导入 Seedance 2.0 使用 Image-to-Video 模式
+3. 导出每个片段，在剪辑软件中组合
+
+**GPT Image 2 Prompt：**
+```
+Create a 6-panel storyboard for a 15-second brand promotional video. Label each panel with a shot description.
+Style: cinematic, cool color tone, widescreen 16:9.
+Content: the journey of a product from factory to the customer's hands.
+```
+
+**Seedance 2.0 Prompt：**
+```
+Cinematic brand advertisement, slow camera push-in, product centered in frame, warm side lighting, soft background blur, no people, 3 seconds.
+```
+
+### 3×3 网格分镜法（重要技巧）
+
+社区发现的关键技巧：将所有分镜面板组合成一张 3×3 网格图再导入 Seedance，失败率远低于逐帧导入。
+
+**GPT Image 2 Prompt：**
+```
+Generate a single 3×3 storyboard grid image (9 panels total) showing the following continuous action:
+[描述你的场景]
+Requirements: each panel is clean and self-contained, character positions are consistent across panels, background is consistent, no text labels or annotations.
+Output as a single image with all 9 panels arranged in a grid.
+```
+
+> **注意：** 输出分镜图用 16:9 避免 Seedance 自动裁剪。帧率设为 24fps 匹合电影标准。
 
 ---
 
@@ -594,9 +645,11 @@ result = client.generate_image(
 
 ### GitHub 仓库
 
-- [awesome-gptimage2](https://github.com/xianyu110/awesome-gptimage2) - 中文教程
-- [awesome-gpt-image-2-prompts](https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts) - 英文案例库
-- [gpt-image-2-skill](https://github.com/Wangnov/gpt-image-2-skill) - CLI 工具
+- [awesome-gptimage2](https://github.com/xianyu110/awesome-gptimage2) - 中文教程（50+ 案例）
+- [awesome-gpt-image-2-prompts](https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts) - 英文案例库（200+ 案例）
+- [Awesome-GPT-Image-2-OpenAi](https://github.com/bubblesslayyer-cmd/Awesome-GPT-Image-2-OpenAi) - 商业化提示词库
+- [GPT-Image-2-Seedance2-Workflow](https://github.com/EvoLinkAI/GPT-Image-2-Seedance2-Workflow) - 视频工作流
+- [gpt-image-2-mcp](https://github.com/Borys520/gpt-image-2-mcp) - MCP 服务器
 - [god-tibo-imagen](https://github.com/NomaDamas/god-tibo-imagen) - Node/Python SDK
 
 ### 文章来源
@@ -624,5 +677,7 @@ result = client.generate_image(
 **如果觉得有用，给个 Star 吧！**
 
 Made with ❤️ | Last updated: 2026-04-23
+
+</div>ted: 2026-04-23
 
 </div>
