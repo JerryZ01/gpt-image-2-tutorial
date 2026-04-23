@@ -1,0 +1,172 @@
+{
+  "prompts": [
+    {
+      "category": "portrait",
+      "name": "霓虹便利店人像",
+      "prompt": "35mm film photography with harsh convenience store fluorescent lighting mixed with colorful neon signs from outside, authentic film grain, high contrast, slight color cast, cinematic street editorial style, intimate medium shot, early 20s sexy Chinese female idol with ultra-realistic delicate refined Chinese features, seductive almond-shaped fox eyes with natural double eyelids, high nose bridge, small sharp V-shaped jawline, flawless porcelain skin with cool ivory undertone and visible specular highlights from fluorescent light, subtle skin texture and micro pores, natural dewy makeup with soft flush on cheeks, glossy natural pink lips slightly parted, subtle natural freckles across nose and cheeks, long dark brown hair in a messy high ponytail with many loose strands falling around face and neck, wearing an oversized white button-up shirt as the only top, unbuttoned at the top with deep cleavage and loosely tied at the waist, paired with a tiny black pleated mini skirt, barefoot in simple white slides, seductive casual leaning pose against the glass door of a 24-hour convenience store at late night, body slightly arched, one leg bent with foot resting against the door frame, the other leg straight, one hand holding a bottle of iced drink, the other hand lightly pulling the hem of her mini skirt, intensely seductive playful yet slightly vulnerable gaze straight at the viewer with soft doe eyes full of quiet temptation and teasing smile, bright cold fluorescent store light from inside mixed with pink and blue neon glow from outside signs, realistic reflections on glass door, blurred convenience store interior with shelves and snacks in background, authentic 35mm film color grading with harsh lighting and neon accents, extremely sharp yet soft skin rendering, natural hair strands, realistic fabric wrinkles and drape on the oversized shirt and mini skirt, no plastic skin, no digital over-sharpening, no airbrushing, no blemishes, no moles, no oily skin, no watermark, no text, authentic late-night convenience store atmosphere",
+      "ratio": "9:16"
+    },
+    {
+      "category": "portrait",
+      "name": "日式温泉旅馆人像",
+      "prompt": "35mm film photography, warm vintage Japanese onsen ryokan aesthetic, soft ambient wooden lantern lighting mixed with gentle natural window light, subtle film grain, gentle color shift, high atmosphere editorial style, intimate medium shot, early 20s beautiful Chinese female idol with ultra-realistic delicate refined Chinese features, seductive almond-shaped fox eyes with natural double eyelids, high nose bridge, small sharp V-shaped jawline, flawless porcelain skin with warm ivory undertone, visible subtle skin texture and micro pores, soft natural makeup with dewy glow, subtle rosy flush on cheeks, natural soft pink lips slightly parted, long dark brown hair tied in a loose low bun with some messy strands falling around face and neck, wearing a loose white yukata (traditional Japanese bathrobe) deliberately slipped off one shoulder and loosely tied at the waist, the fabric slightly open revealing smooth skin and subtle cleavage, barefoot, seductive relaxed sitting pose on the edge of a traditional wooden engawa veranda at a vintage onsen ryokan, body slightly turned toward the camera, one leg bent with foot resting on the wooden floor, the other leg gently dangling, one hand lightly holding the yukata collar, the other hand resting on the wooden floor behind her for support, softly arched back to gently accentuate curves, intensely seductive yet gentle and inviting gaze straight at the viewer with soft doe eyes full of quiet temptation and warmth, warm wooden interior with paper sliding doors and distant steaming hot spring in soft focus, gentle rim lighting highlighting skin and fabric texture, authentic vintage film color grading with warm tones, extremely sharp yet soft skin rendering, natural hair strands, realistic fabric wrinkles and drape on the yukata, no plastic skin, no digital over-sharpening, no airbrushing, no blemishes, no moles, no oily skin, no watermark, no text, authentic 35mm film Japanese onsen ryokan atmosphere",
+      "ratio": "9:16"
+    },
+    {
+      "category": "portrait",
+      "name": "韩国偶像网格人像",
+      "prompt": "9:16 vertical, Korean idol portrait photoshoot, 3x3 grid (nine frames), same person in all images, consistent facial features and styling, soft black mist filter effect, lowered contrast, blooming highlights, subtle glow around light sources",
+      "ratio": "9:16"
+    },
+    {
+      "category": "portrait",
+      "name": "CCD闪光灯人像",
+      "prompt": "mobile phone photo, old CCD camera aesthetic, harsh flash, grainy, dim messy indoor lighting, candid snapshot feeling, slight motion blur, young Korean female idol, soft innocent look",
+      "ratio": "9:16"
+    },
+    {
+      "category": "poster",
+      "name": "城市宣传海报",
+      "prompt": "一张充满新春喜庆氛围但不失高雅格调的 2026 城市宣传海报。双重曝光，构图延续了 S 型的流动感；在条"河流"中，叠加了一个有山有海河的广州城市手绘图，国潮，景色尽在眼底，壮阔雄伟，令人震撼。广州的地标建筑（广州塔，珠江新城建筑群，珠江，广州城里古建筑，游轮，白云山）。文字排版优美，大方，字迹清晰完整，尺寸 9:16。",
+      "ratio": "9:16"
+    },
+    {
+      "category": "poster",
+      "name": "复古旅行海报",
+      "prompt": "Vintage travel poster of Amalfi Coast, Italy. Retro 1950s graphic design style, hand-drawn illustration, warm Mediterranean colors, terracotta and azure blue, sailboats on the sea, cliffside villages, lemon trees, elegant typography, \"VISIT AMALFI\" header, classic travel poster composition, 9:16",
+      "ratio": "9:16"
+    },
+    {
+      "category": "poster",
+      "name": "科幻电影海报",
+      "prompt": "Epic science fiction movie poster, dark fantasy aesthetic, massive alien mothership descending over futuristic city skyline, neon purple and cyan lighting, dramatic perspective, lens flare, floating debris and smoke, movie title typography \"INVASION 2026\", cinematic 4K quality, theatrical poster composition, 9:16",
+      "ratio": "9:16"
+    },
+    {
+      "category": "ecommerce",
+      "name": "产品精修白底图",
+      "prompt": "帮我生成一张图片，将该产品进行精修，可重新打光，精修优化，白色的背景。",
+      "ratio": "3:4"
+    },
+    {
+      "category": "ecommerce",
+      "name": "电商App首页",
+      "prompt": "生成一张高保真移动端电商 App 首页界面截图，整体风格参考 2026 年主流中文电商 App，要求界面极其真实，具有完整的手机应用 UI 逻辑与商业设计感。页面顶部为状态栏，包含时间 9:41、5G 信号、电量图标。下面是搜索框区域，左侧为城市选择 杭州，中央是圆角搜索框，提示词为 搜索耳机、咖啡机、运动鞋，右侧有消息图标和扫一扫图标。搜索区下方是横向分类标签，包含 推荐、数码、家电、服饰、美妆、食品、运动、家居，其中 推荐 高亮选中。",
+      "ratio": "9:16"
+    },
+    {
+      "category": "ecommerce",
+      "name": "护肤品电商首图",
+      "prompt": "高端护肤品电商首图海报，产品名为 澄光维稳精华。整体风格干净、轻奢、科学护肤感强，画面中心是一瓶半透明磨砂玻璃精华液，带淡金色液体和水珠反光，背景为奶白到暖灰渐变，局部有液体流动与微观分子结构装饰。海报必须包含以下文案：澄光 维稳精华、修护屏障 舒缓泛红 细腻透亮、第 2 代升级配方、核心成分 神经酰胺 泛醇 B5 积雪草提取物。",
+      "ratio": "9:16"
+    },
+    {
+      "category": "ui",
+      "name": "玻璃拟态UI",
+      "prompt": "Glassy UI design system showcase, frosted glass effect cards, translucent panels with blur background, soft gradient borders, subtle glow highlights, modern iOS-style aesthetic, floating elements, layered depth, soft shadows, clean white and pastel color palette, responsive grid layout, multiple component examples: buttons, cards, navigation bars, modals, 4K, 9:16",
+      "ratio": "9:16"
+    },
+    {
+      "category": "ui",
+      "name": "抖音直播截图",
+      "prompt": "抖音直播界面截图，主播是一位年轻女性正在介绍口红产品，画面上方显示直播标题"李佳琦口红专场"，左侧有商品卡片和价格信息，右侧有弹幕滚动区域，底部有购买按钮和点赞数，真实直播界面风格，中文文字清晰，9:16",
+      "ratio": "9:16"
+    },
+    {
+      "category": "ui",
+      "name": "日式RPG状态屏",
+      "prompt": "Japanese RPG game status screen UI, anime-style character portrait panel on left side, stats display with HP/MP bars and numeric values, equipment slots grid on right, skill icons in bottom row, traditional JRPG aesthetic with modern polish, warm color scheme with gold accents, detailed background art, fantasy game interface, 4K",
+      "ratio": "9:16"
+    },
+    {
+      "category": "character",
+      "name": "Persona5角色卡",
+      "prompt": "Persona 5 style character reference card, bold red and black color scheme, stylized anime portrait with sharp angular features, rebellious aesthetic, character name displayed prominently, personality traits and stats listed below, manga-style shading, dynamic pose, dramatic lighting, 9:16",
+      "ratio": "9:16"
+    },
+    {
+      "category": "character",
+      "name": "机甲少女",
+      "prompt": "Mecha girl key visual, futuristic cityscape background, anime-style female character with mechanical armor parts, glowing neon circuits, cyberpunk aesthetic, blue and pink color scheme, dynamic action pose, studio-grade illustration quality, high detail on armor panels and joints, 4K, 9:16",
+      "ratio": "9:16"
+    },
+    {
+      "category": "infographic",
+      "name": "水循环科普图",
+      "prompt": "Create an infographic poster explaining the water cycle for elementary school students. Include 4 stages: evaporation from ocean, cloud formation, rainfall, and river flow back to sea. Use simple cartoon-style illustrations, clear arrows showing process flow, Chinese labels for each stage, bright colors (blue, white, green), friendly and educational tone, 3:4, 4K",
+      "ratio": "3:4"
+    },
+    {
+      "category": "infographic",
+      "name": "红楼梦人物关系图",
+      "prompt": "红楼梦人物关系图，中心是贾宝玉，周围连接林黛玉、薛宝钗、王熙凤、贾母等主要角色，每条连接线标注关系类型（表亲、配偶、仆人等），传统中国画风格边框装饰，水墨淡雅配色，中文标注清晰，结构清晰易懂，4K",
+      "ratio": "4:3"
+    },
+    {
+      "category": "infographic",
+      "name": "辣椒炒肉食谱",
+      "prompt": "辣椒炒肉食谱流程图，6个步骤：1.备料（五花肉切片、辣椒切段）2.热锅冷油 3.炒肉变色 4.加辣椒翻炒 5.调味（生抽、盐）6.出锅装盘。每个步骤配小插画，箭头连接流程，食材清单和用量标注，中文字体清晰，现代扁平化设计风格，暖色调，3:4",
+      "ratio": "3:4"
+    },
+    {
+      "category": "social",
+      "name": "朋友圈截图",
+      "prompt": "生成 OpenAI CEO Sam Altman 在微信朋友圈用中文宣传 ChatGPT Images 2.0 的截图，底下马斯克评论"？？？"，Demis Hassabis 评论"我觉得不如 Nano Banana Pro"，真实朋友圈界面风格，头像和昵称完整，比例 16:9",
+      "ratio": "16:9"
+    },
+    {
+      "category": "social",
+      "name": "小红书主页",
+      "prompt": "小红书个人主页截图，用户名"旅行博主小美"，头像是一位年轻女性，主页包含：粉丝数 128万、获赞数 520万、6宫格笔记预览（美食、旅行、穿搭内容），底部导航栏，真实小红书界面风格，中文清晰，9:16",
+      "ratio": "9:16"
+    },
+    {
+      "category": "brand",
+      "name": "山海咖啡Logo",
+      "prompt": "为"山海咖啡"品牌设计 Logo，融合山海元素：山峦轮廓 + 海浪曲线，简洁现代风格，深绿色为主色调，搭配金色点缀，可用于咖啡杯、包装、门店招牌，输出3种不同构图方案，白底，4K",
+      "ratio": "4:3"
+    },
+    {
+      "category": "brand",
+      "name": "品牌物料套件",
+      "prompt": "山海咖啡品牌视觉套件展示，包含：Logo、咖啡杯设计、外带包装袋、门店海报、员工围裙设计、咖啡豆包装袋，统一品牌色调（深绿+金），现代简约风格，整体展示板布局，4K，9:16",
+      "ratio": "9:16"
+    },
+    {
+      "category": "game",
+      "name": "原神战斗UI",
+      "prompt": "原神风格游戏战斗界面截图，左上角角色头像和血条，右侧技能图标（4个元素技能），底部角色切换栏（4个角色头像），中央是Boss战斗场景（巨大怪物），怪物血条显示在顶部，原神标志性的蓝色UI风格，中文文字清晰，16:9",
+      "ratio": "16:9"
+    },
+    {
+      "category": "game",
+      "name": "武侠游戏海报",
+      "prompt": "武侠游戏宣传海报，水墨画风格背景，中央是一位手持长剑的侠客，标题"剑影江湖"，副标题"2026年度武侠巨作"，传统中国美学与现代游戏设计融合，动态飘逸构图，4K，9:16",
+      "ratio": "9:16"
+    },
+    {
+      "category": "special",
+      "name": "360全景图",
+      "prompt": "360° equirectangular panorama image, view from mountain peak overlooking valley at sunset, dramatic sky with clouds, distant mountains on all sides, realistic lighting with sun position, atmospheric haze, natural landscape photography style, 4K panoramic format",
+      "ratio": "2:1"
+    },
+    {
+      "category": "special",
+      "name": "相机爆炸图",
+      "prompt": "Sony A7 camera exploded view breakdown, showing all internal components separated but arranged in exploded diagram style, lens elements, sensor, shutter mechanism, circuit boards, battery, buttons and dials, technical illustration style, clean white background, labeled components in Chinese, engineering blueprint aesthetic, 4K",
+      "ratio": "4:3"
+    }
+  ],
+  "categories": [
+    {"id": "portrait", "name": "人像摄影", "count": 4},
+    {"id": "poster", "name": "海报插画", "count": 3},
+    {"id": "ecommerce", "name": "电商产品", "count": 3},
+    {"id": "ui", "name": "UI界面", "count": 3},
+    {"id": "character", "name": "角色设计", "count": 2},
+    {"id": "infographic", "name": "信息图", "count": 3},
+    {"id": "social", "name": "社交媒体", "count": 2},
+    {"id": "brand", "name": "品牌设计", "count": 2},
+    {"id": "game", "name": "游戏", "count": 2},
+    {"id": "special", "name": "特殊功能", "count": 2}
+  ]
+}
