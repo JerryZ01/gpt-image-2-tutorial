@@ -96,7 +96,7 @@
 - 风格覆盖极广：电影静帧、复古胶片、时尚摄影、像素画、漫画
 - **最有效的关键词就是 `photorealistic`** — 模型会主动规避塑料感
 
-### 5. 界面与布局生成
+### 6. 界面与布局生成
 
 全新的能力维度，能精准复刻各种数字界面：
 
@@ -104,6 +104,41 @@
 - App UI 界面（电商首页、音乐播放器）
 - 游戏画面（黑悟空等）
 - 桌面环境（macOS 浏览器截图、Terminal）
+
+### 7. 🚀 研究驱动的准确性（核心超能力）
+
+这是 GPT Image 2 与其他模型拉开差距的最关键能力：
+
+`gpt-image-2` 接入了 ChatGPT 的深度研究管道 —— 它可以实时联网查找参考资料，并将**真实视觉细节**嵌入输出中。
+
+**实际影响：**
+
+| 能力 | 说明 |
+|------|------|
+| **Logo 正确渲染** | 不再是扭曲的幻觉，而是准确的品牌标识 |
+| **真实产品匹配** | 包装、颜色、比例与真实产品一致 |
+| **人物/地点准确** | 编辑引用真实人物、地点、事件时保持正确的时代细节 |
+| **App 图标匹配** | Slack、Gmail、Drive、Notion 等图标渲染为真实版本 |
+| **技术图表参考** | 芯片布局、架构模式、分子结构参考真实拓扑 |
+
+> **这就是为什么**：编辑排版、多参考组合、密集信息图 —— 都能落地更好，因为模型不是猜"这东西长什么样"。描述真实事物，输出是可用的初稿，而不是"差不多"的近似版。
+
+**示例：30 个真实品牌 Logo 同时渲染**
+
+```text
+Tech infographic, landscape. Title "THE AI STACK — 2026" in bold display sans-serif, top center on a warm cream-to-sand gradient background.
+
+Main composition: a precise grid of 30 square cards arranged in 5 rows of 6. Each card contains one real company logo mark in full color rendered with high accuracy at the top, and the company name in clean sans-serif beneath.
+
+The 30 companies in reading order:
+Row 1: OpenAI, Anthropic, Google DeepMind, Meta AI, Mistral, xAI
+Row 2: Cohere, Perplexity, Hugging Face, DeepSeek, Alibaba Qwen, 01.AI
+Row 3: Midjourney, Runway, Pika, Luma, ElevenLabs, Suno
+Row 4: Cursor, GitHub Copilot, Replit, Vercel, Lovable, Bolt
+Row 5: LangChain, LlamaIndex, Pinecone, Notion AI, Figma AI, Adobe Firefly
+```
+
+> 这是研究驱动准确性的极限测试：**30 个不同的真实品牌 Logo 在一张图中** —— 每个都正确渲染颜色、轮廓和文字标记，全部在统一网格上，带有清晰的行标签和干净的排版层次。没有其他图像模型能同时保持这种密度的真实 Logo 精度 + 布局 + 可读性。
 
 ---
 
@@ -397,15 +432,66 @@ B站视频封面设计，主题"GPT-Image-2 全面测评"，左上角UP主头像
 武侠游戏宣传海报，水墨画风格背景，中央是一位手持长剑的侠客，标题"剑影江湖"，副标题"2026年度武侠巨作"，传统中国美学与现代游戏设计融合，动态飘逸构图，4K，9:16
 ```
 
-### 十、特殊功能类
+### 十、杂志编辑类
 
-#### 10.1 360° 全景图
+#### 10.1 杂志封面
+
+```
+Editorial magazine cover, portrait orientation. Contemporary 2026 art direction, post-internet aesthetic, bold and saturated.
+
+Full-bleed hero: a photorealistic overhead shot of a matte-black mechanical keyboard partially submerged in a shallow pool of reflective liquid chrome on a polished concrete surface. Dramatic side-lighting from upper-left, saturated electric-violet gradient wash across the background.
+
+Overlay typography, all in bright white:
+- Masthead "FORESIGHT" top-left, small all-caps sans-serif
+- Date tag top-right, tiny monospace: "VOL. 04 / 2026"
+- Hero line "THE END OF THE KEYBOARD" set in huge bold display sans-serif, 60% of frame height
+
+Modern editorial layout, high-contrast, saturated palette. Not a 1990s treatment. No other text.
+```
+
+#### 10.2 人物编辑照
+
+```
+Cinematic editorial portrait, landscape 16:9. A female barista in her early 30s with short dark hair, wearing a navy denim apron over a simple white t-shirt, concentrated expression, hands working the brass grouphead of a polished La Marzocco Linea Mini espresso machine.
+
+Golden-hour morning light streaming through large industrial windows on the left.
+
+Background: softly blurred but recognizable -- a Blue Bottle Coffee shop interior. The Blue Bottle wordmark visible on a ceramic mug. A Mazzer grinder to the right.
+
+Technical: shot on 50mm lens at f/2.0, shallow depth of field, sharp focus on barista hands. 35mm film grain, warm color grade.
+
+Candid, unposed editorial feel. Documentary photography aesthetic. Render all visible brand marks accurately.
+```
+
+### 十一、信息图类
+
+#### 11.1 产品发布信息图
+
+```
+Portrait infographic poster on a pale cream-to-lavender gradient background.
+
+Headline "ChatGPT Agents" in bold condensed sans-serif, with "Agents" rendered in vibrant blue-to-purple gradient. Small "NEW" pill badge above.
+
+To the right of title, a 3D-rendered friendly chatbot mascot -- chrome-white sphere with glowing cyan eyes -- surrounded by floating app-icon cards.
+
+Three pill badges below subtitle: "Autonomous", "Reliable", "Works for you".
+
+Section "What they can do" -- a six-card grid. Each card has a small 3D icon, colored title, 3-line description.
+
+Footer: deep blue-to-purple gradient bar with rocket icon and copy "More done. Less effort." OpenAI wordmark on right.
+
+Typography: bold sans-serif headlines, regular sans body. Palette: cream background, navy text, lavender accents. Photorealism in 3D mascot and icons.
+```
+
+### 十二、特殊功能类
+
+#### 12.1 360° 全景图
 
 ```
 360° equirectangular panorama image, view from mountain peak overlooking valley at sunset, dramatic sky with clouds, distant mountains on all sides, realistic lighting with sun position, atmospheric haze, natural landscape photography style, 4K panoramic format
 ```
 
-#### 10.2 产品爆炸图
+#### 12.2 产品爆炸图
 
 ```
 Sony A7 camera exploded view breakdown, showing all internal components separated but arranged in exploded diagram style, lens elements, sensor, shutter mechanism, circuit boards, battery, buttons and dials, technical illustration style, clean white background, labeled components in Chinese, engineering blueprint aesthetic, 4K
@@ -415,40 +501,103 @@ Sony A7 camera exploded view breakdown, showing all internal components separate
 
 ## 高级技巧
 
-### 1. 参考图编辑
-
-上传一张图片，然后用文字描述修改：
+### 技巧 1：photorealistic 是万能钥匙
 
 ```
-（上传产品图）帮我生成一张图片，将该产品进行精修，可重新打光，精修优化，白色的背景。
+想让输出最自然，最有效的关键词就是 photorealistic。
+模型会主动规避塑料感，复刻真实照片的特征。
 ```
 
-### 2. 多图融合
+### 技巧 2：善用 Thinking 模式
 
-上传多张人物照片，生成合影：
+- 需要联网信息（如品牌知识、人物背景）时，开启 Thinking 模式
+- 需要多张连贯图片（如穿搭系列、社交媒体素材）时，开启 Thinking 模式
+- 简单出图用 Instant 模式即可，速度快
 
-```
-（上传三张单人照和一张参考合照）让前三个人物模仿参考图里的姿势，一起拍 vlog 合照。
-```
+### 技巧 3：给文字，不要描述文字
 
-### 3. 角色一致性
+```text
+# ❌ 错误示范
+生成一张有促销信息的奶茶海报
 
-上传一张人物照，生成多套穿搭：
-
-```
-（上传人物照片）为这个人物生成5套不同风格的穿搭照片，保持脸部特征一致，分别展示：休闲风、职场风、运动风、街头风、度假风。
-```
-
-### 4. 手写文字
-
-```
-用普通人的笔迹抄写《定风波·莫听穿林打叶声》，手写感自然，不要贴图感。
+# ✅ 正确示范
+生成一张奶茶海报，品牌名为"山川茶事"，新品名为"山柚观音冷泡系列"，价格"中杯 16 元 大杯 19 元"，活动"第二杯半价"
 ```
 
-### 5. 信息图生成
+### 技巧 4：指定审美方向
 
+```text
+# 通过风格参考锚定审美
+"参考 1960 年代法国新浪潮电影海报风格"
+"采用钢笔淡彩（Pen and wash）技法"
+"新中式、轻奢、克制"
+"像素画风格 / 复古胶片 / 极简科技"
 ```
-生成一张介绍 GPT Image 2 核心能力的中文百科/信息图海报，模块化布局，图鉴感强。
+
+### 技巧 5：垫图 + 编辑，效果翻倍
+
+1. 先上传参考图（垫图）
+2. 让 GPT Image 2 生成初稿
+3. 点击图片左下角的「编辑」功能进行精细修改
+4. 修改可以针对特定区域（如替换品牌、改文字、换人物）
+
+### 技巧 6：利用世界知识
+
+```text
+# 模型已经知道这些，不需要你详细描述：
+- 各大 App 的界面布局（抖音、小红书、B站、YouTube）
+- 品牌的视觉识别系统（星巴克、Apple、特斯拉）
+- 真实人物的外观特征
+- 游戏的 UI 界面风格
+
+直接说"生成抖音直播截图"或"生成星巴克联名海报"即可。
+```
+
+### 技巧 7：蜡笔风格模板
+
+```text
+[主体], crayon drawing illustration, hand-drawn with soft waxy texture, visible scribble marks, uneven coloring, playful childlike style, simple shapes, charming imperfections, layered crayon strokes, textured paper surface, warm nostalgic feeling, vibrant colors, clean white background
+```
+
+### 技巧 8：商业级 Prompt 模板（推荐）
+
+根据 OpenAI 官方文档，生产级系统应使用标准化格式：
+
+```text
+Goal: [目标/用途]
+Asset: [资产类型]
+Scene: [场景描述]
+Subject: [主体描述]
+Composition: [构图]
+Lighting: [光线]
+Materials and styling: [材质与风格]
+Constraints: [约束条件]
+```
+
+**示例 - 豪华电动车展厅：**
+
+```text
+Goal: Create a premium automotive brand image that feels futuristic, elegant, and commercially credible.
+Asset: Campaign hero for a luxury electric vehicle launch.
+Scene: Nighttime architectural showroom with polished concrete, glass walls, and subtle city reflections.
+Subject: One luxury electric vehicle positioned as the hero object, with a clean side-three-quarter profile and visible lighting signature.
+Composition: Wide cinematic frame, vehicle clearly dominant, strong horizontal balance, disciplined negative space.
+Lighting: Controlled architectural night lighting with crisp body highlights and soft reflected glow from the floor.
+Materials and styling: Metallic paint, dark glass, polished concrete, brushed aluminum, premium minimalism.
+Constraints: No readable signage, no logo, no people, no traffic, no crowded background, no unrealistic sci-fi effects, no watermark.
+```
+
+**示例 - 高端护肤品主视觉：**
+
+```text
+Goal: Create a premium skincare hero image that feels expensive, clean, and conversion-ready.
+Asset: E-commerce hero banner for a facial serum launch.
+Scene: Warm ivory studio set with a round travertine pedestal, shallow water ripples, and soft botanical shadows.
+Subject: One frosted glass serum bottle with a brushed champagne cap and a blank label area.
+Composition: Centered product, slightly low camera angle, full bottle clearly visible, generous negative space for headline overlay.
+Lighting: Soft diffused studio light with luminous highlights and calm luxury mood.
+Materials and styling: Frosted glass, brushed metal, polished stone, subtle water shimmer, restrained neutral palette.
+Constraints: No logo, no readable text, no hands, no extra props, no duplicate products, no clutter, no deformation, no watermark.
 ```
 
 ---
@@ -504,10 +653,13 @@ response = client.images.create_variation(
 
 ### 定价
 
-| 类型 | 价格 |
-|------|------|
-| Standard 1024×1024 | ~$0.01/张 |
-| HD 1024×1024 | ~$0.04/张 |
+| 画质 | 分辨率 | 输入价格 | 输出价格 |
+|------|--------|---------|---------|
+| Low | 1024x1024 | $2.00 / 1M tokens | $8.00 / 1M tokens |
+| Medium | 1536x1536 | $2.00 / 1M tokens | $16.00 / 1M tokens |
+| High | 2048x2048 | $2.00 / 1M tokens | $32.00 / 1M tokens |
+
+**说明：** Square (1024×1024) 通常最快。推荐 `1024x1024`、`1536x1024`、`1024x1536`。
 
 ---
 
@@ -585,59 +737,63 @@ Output as a single image with all 9 panels arranged in a grid.
 
 ## 局限性
 
-### 1. 文字稳定性
+GPT Image 2 虽然强大，但仍有以下局限：
 
-- 长文本仍可能有错字
-- 小字号文字可能模糊
-- 复杂排版可能错位
-
-### 2. 人物渲染
-
-- 手部偶尔变形
-- 真实人物不能生成可识别照片
-- 动态姿势可能有瑕疵
-
-### 3. 安全限制
-
-- 不能生成暴力、成人内容
-- 不能生成品牌 logo、知名 IP 角色
-- 不能生成证件、试卷等敏感内容
-
-### 4. API 限制
-
-- url 链接 1 小时过期
-- 有 rate limit
-- Beta 版本可能变化
+| 局限类型 | 说明 |
+|---------|------|
+| **三维物理逻辑** | 折纸步骤图、魔方复原过程等需要极度严密三维物理逻辑的任务，容易翻车 |
+| **密集纹理** | 倾斜表面上的微小细节、极度密集的重复纹理仍会触碰计算边界 |
+| **精确箭头图表** | 涉及精确箭头的图表，建议人工核查 |
+| **亚洲人一致性** | 对亚洲人面部的一致性保持不如欧美面孔 |
+| **透明背景** | 不支持透明背景输出（官方明确说明） |
+| **文字渲染** | 文字渲染和精确布局控制虽有改善但仍不完美，文字多的资产需要更严格的提示词 |
 
 ---
 
-## 最佳实践
+## API 定价
 
-### 1. 提示词优化
+| 画质 | 分辨率 | 输入价格 | 输出价格 |
+|------|--------|---------|---------|
+| Low | 1024x1024 | $2.00 / 1M tokens | $8.00 / 1M tokens |
+| Medium | 1536x1536 | $2.00 / 1M tokens | $16.00 / 1M tokens |
+| High | 2048x2048 | $2.00 / 1M tokens | $32.00 / 1M tokens |
 
-- ✅ 具体描述光线、材质、构图
-- ✅ 直接写中文文字内容
-- ✅ 指定比例和分辨率
-- ❌ 避免模糊描述如"好看"、"漂亮"
-- ❌ 避免过长的提示词（建议 < 500 字）
+**说明：**
+- Square（1024×1024）通常最快
+- 推荐 `1024x1024`、`1536x1024`、`1024x1536` 作为默认分辨率
+- 图像输入始终以高保真度处理
 
-### 2. 生成策略
+---
 
-- 先用 `standard` 预览，满意后再用 `hd`
-- 多生成几张选最好的
-- 用 `seed` 参数复现结果
+## 商业应用场景
 
-### 3. 编辑技巧
+### 行业分类
 
-- 上传清晰的原图
-- 用简洁的语言描述修改
-- 分步骤处理复杂修改
+| 行业 | 应用案例 |
+|------|---------|
+| **汽车** | 豪华电动车展厅、品牌 Launch 主视觉、官网 Hero |
+| **美妆** | 护肤品主视觉、小红书种草图、临床功效图、唇釉色号图 |
+| **时尚** | 鞋履 Launch、Lookbook 网格、奢侈品手袋陈列、街头穿搭 |
+| **餐饮** | 咖啡拉花生活照、保健品 Packshot、有机茶饮 Pour 场景 |
+| **香氛** | 黑曜石香氛 Hero、夜曲系列、高端香水 Landing Page |
+| **家居** | 北欧椅生活场景、极简床品 Hero、厨房家电台面 Demo |
+| **酒店** | 精品酒店大堂 Editorial、厨师品鉴菜单 Plating |
+| **珠宝** | 钻戒微距细节、高级珠宝沙龙、项链 Campaign |
+| **科技** | 旗舰手机 Cinematic Launch、高端耳机雕塑感 Hero |
+| **季节性** | 618 促销 Banner、圣诞礼品包装、新年红包设计 |
 
-### 4. 成本控制
+### 商业格式
 
-- 批量生成时注意 rate limit
-- 及时下载 url 图片避免过期
-- 合理使用 quality 参数
+- **PDP Hero** - 产品详情页主图
+- **Marketplace Packshot** - 电商平台产品图
+- **Paid Social Static** - 付费社媒静态广告
+- **Collection Launch** - 新品系列发布图
+- **OOH Billboard** - 户外广告牌
+- **Mobile App Homepage** - 移动端 App 首页
+- **SaaS Dashboard** - SaaS 产品仪表盘
+- **Packaging Unboxing** - 包装开箱展示
+- **Lookbook Grid** - 产品目录网格
+- **Infographic Editorial** - 编辑型信息图
 
 ---
 
