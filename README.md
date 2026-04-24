@@ -247,6 +247,10 @@ Fujifilm strawberry color film simulation, soft pinkish strawberry tone, gentle 
 文字排版优美，大方，字迹清晰完整，尺寸 9:16。
 ```
 
+**生成效果：**
+
+<img src="https://raw.githubusercontent.com/JerryZ01/gpt-image-2-tutorial/main/assets/eb561e1a-b69b-412c-a4ce-a40f7ab253fc.png" width="400" alt="城市宣传海报">
+
 #### 2.2 复古旅行海报
 
 ```
