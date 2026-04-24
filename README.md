@@ -224,7 +224,7 @@ Row 5: LangChain, LlamaIndex, Pinecone, Notion AI, Figma AI, Adobe Firefly
 
 **生成效果：**
 
-![韩国偶像 3x3 网格人像](https://raw.githubusercontent.com/JerryZ01/gpt-image-2-tutorial/main/assets/9cf568f3-aab1-4c55-bcd5-bee330c0c55e.png)
+<img src="https://raw.githubusercontent.com/JerryZ01/gpt-image-2-tutorial/main/assets/9cf568f3-aab1-4c55-bcd5-bee330c0c55e.png" width="400" alt="韩国偶像 3x3 网格人像">
 
 #### 1.4 CCD 相机闪光灯人像
 
@@ -234,7 +234,7 @@ mobile phone photo, old CCD camera aesthetic, harsh flash, grainy, dim messy ind
 
 **生成效果：**
 
-![CCD 相机闪光灯人像](https://raw.githubusercontent.com/JerryZ01/gpt-image-2-tutorial/main/assets/d8a47618-645d-46ab-ac8f-38ed08a877f5.png)
+<img src="https://raw.githubusercontent.com/JerryZ01/gpt-image-2-tutorial/main/assets/d8a47618-645d-46ab-ac8f-38ed08a877f5.png" width="400" alt="CCD 相机闪光灯人像">
 
 #### 1.5 富士胶片草莓色调学校人像
 
