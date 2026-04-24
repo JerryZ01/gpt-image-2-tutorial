@@ -28,9 +28,7 @@
 
 ## 简介
 
-2026 年 4 月 22 日，OpenAI 正式发布 **ChatGPT Images 2.0**（API 模型名 `gpt-image-2`），奥特曼称之为「从 GPT-3 到 GPT-5 的飞跃」。
-
-它是 OpenAI 首个具备**思考能力**的图像模型，在 Arena 盲测榜单中以断层优势登顶全球第一，领先第二名超过 240 分。内部代号为 **"duct-tape"**。
+2026 年 4 月 22 日，OpenAI 正式发布 **ChatGPT Images 2.0**（API 模型名 `gpt-image-2`）。
 
 ### 🚀 四大核心突破
 
@@ -48,10 +46,7 @@
 | 特性 | 详情 |
 |------|------|
 | 知识截止 | 2025 年 12 月 |
-| 最大分辨率 | 2K（API Beta） |
 | 宽高比 | 3:1 ~ 1:3 |
-| 单次生成 | 最多 8 张连贯图（Thinking 模式） |
-| 生成速度 | 约 3 秒/张（Instant 模式） |
 | 多语言 | 中文、日文、韩文、印地语等 |
 | 入口 | ChatGPT / Codex / API |
 
@@ -160,14 +155,12 @@ Row 5: LangChain, LlamaIndex, Pinecone, Notion AI, Figma AI, Adobe Firefly
 ### Instant 模式（即时模式）
 
 - 对所有 ChatGPT 用户开放
-- 生成速度约 3 秒/张
 - 适合日常快速出图
 
 ### Thinking 模式（思考模式）
 
 - 需要 ChatGPT Plus / Pro / Business 账户
 - 模型会先**联网搜索**、**规划结构**、**自我核查**
-- 单次最多生成 **8 张角色和对象连贯**的系列图片
 - 适合复杂信息图、教育内容、多图连贯场景
 
 ---
@@ -667,10 +660,8 @@ response = client.images.create_variation(
 | 图像输入 | $8.00 / 1M tokens |
 | 缓存输入 | $2.00 / 1M tokens |
 | 输出 | $30.00 / 1M tokens |
-| Medium | 1536x1536 | $2.00 / 1M tokens | $16.00 / 1M tokens |
-| High | 2048x2048 | $2.00 / 1M tokens | $32.00 / 1M tokens |
 
-**说明：** Square (1024×1024) 通常最快。推荐 `1024x1024`、`1536x1024`、`1024x1536`。
+**说明：** 推荐 `1024x1024`、`1536x1024`、`1024x1536` 作为默认分辨率。
 
 ---
 
