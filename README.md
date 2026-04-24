@@ -222,6 +222,10 @@ Row 5: LangChain, LlamaIndex, Pinecone, Notion AI, Figma AI, Adobe Firefly
 9:16 vertical, Korean idol portrait photoshoot, 3x3 grid (nine frames), same person in all images, consistent facial features and styling, soft black mist filter effect, lowered contrast, blooming highlights, subtle glow around light sources
 ```
 
+**生成效果：**
+
+![韩国偶像 3x3 网格人像](https://raw.githubusercontent.com/JerryZ01/gpt-image-2-tutorial/main/assets/9cf568f3-aab1-4c55-bcd5-bee330c0c55e.png)
+
 #### 1.4 CCD 相机闪光灯人像
 
 ```
