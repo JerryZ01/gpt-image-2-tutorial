@@ -4,7 +4,6 @@
 >
 > 整合官方文档、社区最佳实践、200+ 精选提示词、覆盖 10 大应用场景
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge)](https://github.com/JerryZ01/gpt-image-2-tutorial)
 [![GPT-Image-2](https://img.shields.io/badge/Model-GPT--Image--2-blue?style=for-the-badge)](https://chatgpt.com)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
 
