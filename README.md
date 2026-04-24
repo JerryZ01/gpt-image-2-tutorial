@@ -228,6 +228,10 @@ Row 5: LangChain, LlamaIndex, Pinecone, Notion AI, Figma AI, Adobe Firefly
 mobile phone photo, old CCD camera aesthetic, harsh flash, grainy, dim messy indoor lighting, candid snapshot feeling, slight motion blur, young Korean female idol, soft innocent look
 ```
 
+**生成效果：**
+
+![CCD 相机闪光灯人像](https://raw.githubusercontent.com/JerryZ01/gpt-image-2-tutorial/main/assets/d8a47618-645d-46ab-ac8f-38ed08a877f5.png)
+
 #### 1.5 富士胶片草莓色调学校人像
 
 ```
