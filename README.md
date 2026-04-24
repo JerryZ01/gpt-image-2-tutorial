@@ -28,7 +28,7 @@
 
 ## 简介
 
-2026 年 4 月 22 日，OpenAI 正式发布 **ChatGPT Images 2.0**（API 模型名 `gpt-image-1`），奥特曼称之为「从 GPT-3 到 GPT-5 的飞跃」。
+2026 年 4 月 22 日，OpenAI 正式发布 **ChatGPT Images 2.0**（API 模型名 `gpt-image-2`），奥特曼称之为「从 GPT-3 到 GPT-5 的飞跃」。
 
 它是 OpenAI 首个具备**思考能力**的图像模型，在 Arena 盲测榜单中以断层优势登顶全球第一，领先第二名超过 240 分。内部代号为 **"duct-tape"**。
 
@@ -612,7 +612,7 @@ client = OpenAI()
 
 # 文生图
 response = client.images.generate(
-    model="gpt-image-1",
+    model="gpt-image-2",
     prompt="a golden retriever wearing sunglasses on a beach",
     n=1,
     size="1024x1024",
@@ -622,7 +622,7 @@ response = client.images.generate(
 
 # 编辑图片
 response = client.images.edit(
-    model="gpt-image-1",
+    model="gpt-image-2",
     image=open("original.png", "rb"),
     mask=open("mask.png", "rb"),
     prompt="replace the background with a mountain scene",
@@ -643,7 +643,7 @@ response = client.images.create_variation(
 
 | 参数 | 说明 |
 |------|------|
-| `model` | `gpt-image-1`（API 模型名） |
+| `model` | `gpt-image-2`（API 模型名） |
 | `prompt` | 文字提示词 |
 | `n` | 生成数量（1-4） |
 | `size` | `1024x1024`、`1536x1024`、`1024x1536` |
@@ -652,9 +652,13 @@ response = client.images.create_variation(
 
 ### 定价
 
-| 画质 | 分辨率 | 输入价格 | 输出价格 |
-|------|--------|---------|---------|
-| Low | 1024x1024 | $2.00 / 1M tokens | $8.00 / 1M tokens |
+> 官方定价来源：[OpenAI API Pricing](https://openai.com/api/pricing/)
+
+| 类型 | 价格 |
+|------|------|
+| 图像输入 | $8.00 / 1M tokens |
+| 缓存输入 | $2.00 / 1M tokens |
+| 输出 | $30.00 / 1M tokens |
 | Medium | 1536x1536 | $2.00 / 1M tokens | $16.00 / 1M tokens |
 | High | 2048x2048 | $2.00 / 1M tokens | $32.00 / 1M tokens |
 
@@ -751,16 +755,17 @@ GPT Image 2 虽然强大，但仍有以下局限：
 
 ## API 定价
 
-| 画质 | 分辨率 | 输入价格 | 输出价格 |
-|------|--------|---------|---------|
-| Low | 1024x1024 | $2.00 / 1M tokens | $8.00 / 1M tokens |
-| Medium | 1536x1536 | $2.00 / 1M tokens | $16.00 / 1M tokens |
-| High | 2048x2048 | $2.00 / 1M tokens | $32.00 / 1M tokens |
+> 官方定价来源：[OpenAI API Pricing](https://openai.com/api/pricing/)
+
+| 类型 | 价格 |
+|------|------|
+| 图像输入 | $8.00 / 1M tokens |
+| 缓存输入 | $2.00 / 1M tokens |
+| 输出 | $30.00 / 1M tokens |
 
 **说明：**
-- Square（1024×1024）通常最快
+- 不区分分辨率或画质，统一一口价
 - 推荐 `1024x1024`、`1536x1024`、`1024x1536` 作为默认分辨率
-- 图像输入始终以高保真度处理
 
 ---
 
